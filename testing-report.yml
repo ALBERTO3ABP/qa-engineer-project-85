@@ -1,0 +1,40 @@
+---
+- summary: |
+    Смена язык программирования в игре
+  status: pass
+
+- summary: |
+    игра с человеком
+  status: pass
+
+- summary: |
+    Игра с ботом
+  status: pass
+
+- summary: |
+    игра с другом
+  status: pass
+
+- summary: |
+    Уровень сложности в игре
+  status: pass
+
+- summary: |
+    Выбор задания дли игры
+  status: pass
+
+- summary: |
+    Запись после завершения игры
+  status: pass
+
+- summary: |
+    Очки рейтинга
+  status: pass
+
+- summary: |
+    Мобильная версия сайта
+  status: fail
+
+- summary: |
+    Работа сайта на разных версиях браузеров
+  status: pass
