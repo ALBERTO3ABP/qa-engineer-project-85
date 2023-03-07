@@ -4,7 +4,7 @@
   requirement: |
     Возможность менять язык программирования во время решения
   prerequisites: |
-    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Открыть https://codebattle.hexlet.io/#lobby
     - Нужно быть авторизованным
     - Нужно быть в поединке
   test-data: |
@@ -21,7 +21,7 @@
   requirement: |
     В игру можно играть с любым человеком
   prerequisites: |
-    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Открыть https://codebattle.hexlet.io/#lobby
     - Нужно быть авторизованным
   test-data: |
     -
@@ -37,7 +37,7 @@
   requirement: |
     В игру можно играть с ботом
   prerequisites: |
-    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Открыть https://codebattle.hexlet.io/#lobby
     - Нужно быть авторизованным
   test-data: |
     -
@@ -53,7 +53,7 @@
   requirement: |
     В игру можно играть с другом (игра будет доступна по ссылке)
   prerequisites: |
-    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Открыть https://codebattle.hexlet.io/#lobby
     - Нужно быть авторизованным
   test-data: |
     -
@@ -70,7 +70,7 @@
   requirement: |
     Можно выбрать игру по уровню сложности
   prerequisites: |
-    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Открыть https://codebattle.hexlet.io/#lobby
     - Нужно быть авторизованным
   test-data: |
     -
@@ -86,7 +86,7 @@
   requirement: |
     При создании игры можно выбрать определенное задание
   prerequisites: |
-    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Открыть https://codebattle.hexlet.io/#lobby
     - Нужно быть авторизованным
   test-data: |
     -
@@ -102,7 +102,7 @@
   requirement: |
     Завершенная игра доступна в записи
   prerequisites: |
-    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Открыть https://codebattle.hexlet.io/#lobby
     - Нужно быть авторизованным
   test-data: |
     -
@@ -118,7 +118,7 @@
   requirement: |
     По завершению игры выдаются очки рейтинга
   prerequisites: |
-    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Открыть https://codebattle.hexlet.io/#lobby
     - Нужно быть авторизованным
     - Нужно быть в поединке с игроком
   test-data: |
@@ -133,7 +133,7 @@
   requirement: |
     Сайт должен иметь мобильную версию.
   prerequisites: |
-    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Открыть https://codebattle.hexlet.io/#lobby
     - Нужно быть авторизованным
   test-data: |
     -
@@ -150,12 +150,12 @@
   prerequisites: |
     - Установить браузер Microsoft Edge
     - Установить браузер Яндекс Браузер
-    - Нужно быть авторизованным на сайте https: //codebattle.hexlet.io/#lobby
+    - Нужно быть авторизованным на сайте https://codebattle.hexlet.io/#lobby
   test-data: |
     - Проверка сайта на Microsoft Edge Версия 110.0.1587.63 (Официальная сборка) (64-разрядная версия)
     - Проверка сайта на Яндекс Браузер Версия 23.1.4.778 (64-bit)
   steps:
-    - Открыть https: //codebattle.hexlet.io/#lobby через Microsoft Edge версия 110.0.1587.63
-    - Открыть https: //codebattle.hexlet.io/#lobby через Яндекс Браузер версия 23.1.4.778
+    - Открыть https://codebattle.hexlet.io/#lobby через Microsoft Edge версия 110.0.1587.63
+    - Открыть https://codebattle.hexlet.io/#lobby через Яндекс Браузер версия 23.1.4.778
   expected-result: |
     Сайт работает на новых версиях браузеров
