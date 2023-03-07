@@ -1,0 +1,161 @@
+---
+- summary: |
+    Смена язык программирования в игре
+  requirement: |
+    Возможность менять язык программирования во время решения
+  prerequisites: |
+    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Нужно быть авторизованным
+    - Нужно быть в поединке
+  test-data: |
+    -
+  steps:
+    - Нажимаем на форму в панели инструментов
+    - Выбираем нужный язык программирования
+  expected-result: |
+    У пользователя есть возможность сменить язык программирования
+
+
+- summary: |
+    игра с человеком
+  requirement: |
+    В игру можно играть с любым человеком
+  prerequisites: |
+    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Нужно быть авторизованным
+  test-data: |
+    -
+  steps:
+    - Нажимаем на кнопку "CREATE A GAME"
+    - Во всплывающем окне в разделе "Game Type" выбираем "With other users"
+    - Нажимаем на кнопку "Create Battle"
+  expected-result: |
+    Пользователь может сыграть с любым человеком
+
+- summary: |
+    Игра с ботом
+  requirement: |
+    В игру можно играть с ботом
+  prerequisites: |
+    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Нужно быть авторизованным
+  test-data: |
+    -
+  steps:
+    - Нажимаем на кнопку "CREATE A GAME"
+    - Во всплывающем окне в разделе "Game Type" выбираем "With a bot"
+    - Нажимаем на кнопку "Create Battle"
+  expected-result: |
+    Пользователь может сыграть с ботом
+
+- summary: |
+    игра с другом
+  requirement: |
+    В игру можно играть с другом (игра будет доступна по ссылке)
+  prerequisites: |
+    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Нужно быть авторизованным
+  test-data: |
+    -
+  steps:
+    - Нажимаем на кнопку "CREATE A GAME"
+    - Во всплывающем окне в разделе "Game Type" выбираем "With a friend"
+    - В появившейся форме нажимаем на ник друга
+    - Нажимаем на кнопку "Create Invite"
+  expected-result: |
+    Пользователь может сыграть с другом
+
+- summary: |
+    Уровень сложности в игре
+  requirement: |
+    Можно выбрать игру по уровню сложности
+  prerequisites: |
+    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Нужно быть авторизованным
+  test-data: |
+    -
+  steps:
+    - Нажимаем на кнопку "CREATE A GAME"
+    - Во всплывающем окне в разделе "Level" выбираем "hard" (4 звезды)
+    - Нажимаем на кнопку "Create Battle"
+  expected-result: |
+    Пользователь может выбрать уровень сложности игры
+
+- summary: |
+    Выбор задания дли игры
+  requirement: |
+    При создании игры можно выбрать определенное задание
+  prerequisites: |
+    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Нужно быть авторизованным
+  test-data: |
+    -
+  steps:
+    - Нажимаем на кнопку "CREATE A GAME"
+    - Во всплывающем окне в разделе "Choose task by name or tags" выбираем задание
+    - Нажимаем на кнопку "Create Battle"
+  expected-result: |
+    Пользователь может выбрать задание для игры
+
+- summary: |
+    Запись после завершения игры
+  requirement: |
+    Завершенная игра доступна в записи
+  prerequisites: |
+    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Нужно быть авторизованным
+  test-data: |
+    -
+  steps:
+    - Открываем свой профиль
+    - Переходим в раздел "COMPLETED GAMES"
+    - В группе "Actions" нажимаем на кнопку "Show"
+  expected-result: |
+    Пользователь может просмотреть записи прошедших игр
+
+- summary: |
+    Очки рейтинга
+  requirement: |
+    По завершению игры выдаются очки рейтинга
+  prerequisites: |
+    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Нужно быть авторизованным
+    - Нужно быть в поединке с игроком
+  test-data: |
+    -
+  steps:
+    - После победы над игроком очки прибавляются автоматически
+  expected-result: |
+    После завершения игры победитель получает очки рейтинга
+
+- summary: |
+    Мобильная версия сайта
+  requirement: |
+    Сайт должен иметь мобильную версию.
+  prerequisites: |
+    - Открыть https: //codebattle.hexlet.io/#lobby
+    - Нужно быть авторизованным
+  test-data: |
+    -
+  steps:
+    - Открываем DevTools
+    - На клавиатуре одновременно нажимаем Ctrl+Shift+M
+  expected-result: |
+    Есть мобильная версия сайта
+
+- summary: |
+    Работа сайта на разных версиях браузеров
+  requirement: |
+    Сайт должен быть протестирован на совместимость с последними версиями браузеров.
+  prerequisites: |
+    - Установить браузер Microsoft Edge
+    - Установить браузер Яндекс Браузер
+    - Нужно быть авторизованным на сайте https: //codebattle.hexlet.io/#lobby
+  test-data: |
+    - Проверка сайта на Microsoft Edge Версия 110.0.1587.63 (Официальная сборка) (64-разрядная версия)
+    - Проверка сайта на Яндекс Браузер Версия 23.1.4.778 (64-bit)
+  steps:
+    - Открыть https: //codebattle.hexlet.io/#lobby через Microsoft Edge версия 110.0.1587.63
+    - Открыть https: //codebattle.hexlet.io/#lobby через Яндекс Браузер версия 23.1.4.778
+  expected-result: |
+    Сайт работает на новых версиях браузеров
